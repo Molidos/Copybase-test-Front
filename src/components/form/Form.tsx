@@ -10,7 +10,7 @@ export const Form = () => {
     const [file, setFile] = useState<File | null>(null);
     const [mrr, setMrr] = useState(null);
     const [chunRate, setChunRate] = useState(null);
-    const [months, setMonths] = useState(null)
+    const [months, setMonths] = useState<any> (null)
     const [revenues, setRevenues] = useState(null)
 
     //Pega os arquivos
