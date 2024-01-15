@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Documentação: Como Abrir uma Aplicação Next.js</h1>
+<h3>Introdução</h3>
+<p>A aplicação foi feita através do Next.js, um framework de React.js utilizado para construir aplicações web de forma eficiente, oferecendo uma experiência de desenvolvimento rápida e eficaz. Este guia fornecerá instruções passo a passo sobre como abrir uma aplicação Next.js.</p>
 
-## Getting Started
+Pré-requisitos
+Antes de começar, certifique-se de ter os seguintes itens instalados em seu sistema:
 
-First, run the development server:
+Node.js: O Next.js requer o Node.js. Você pode baixar e instalar a versão mais recente em https://nodejs.org/.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+npm (Node Package Manager): O npm é instalado automaticamente com o Node.js. Verifique se você tem a versão mais recente executando npm -v no terminal.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2>Passos para Abrir a aplicação:</h2>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<h3>Passo 1: Navegar até o Diretório da Aplicação</h3>
+<p>Dê um "git clone" no diretório do Github para ter o código em seu computador, ou então faça o download do código pelo botão verde que fica encima dos arquivos escrito "<> Code"</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<h3>Passo 2: Navegar até o Diretório da Aplicação</h3>
+<p>Mude para o diretório recém-criado usando o comando:</p>
 
-## Learn More
+<code>cd nome-da-aplicacao</code>
+<h3>Passo 3: Iniciar a Aplicação</h3>
+<p>Para iniciar a aplicação, execute o seguinte comando:</p>
 
-To learn more about Next.js, take a look at the following resources:
+<code>npm run dev</code>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Isso iniciará o servidor de desenvolvimento. Aguarde até ver uma mensagem indicando que o servidor está ouvindo em um determinado endereço, geralmente http://localhost:3000.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<h3>Passo 4: Abrir a Aplicação no Navegador</h3>
+<p>Abra seu navegador da web e acesse http://localhost:3000. Você verá a página inicial da sua aplicação Next.js.</p>
 
-## Deploy on Vercel
+<h3>Conclusão<h3>
+<p>Agora você abriu com sucesso uma aplicação Next.js em seu ambiente local. Sinta-se à vontade para explorar a estrutura do projeto e começar a desenvolver suas páginas e componentes.</p>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p>Para mais informações e recursos, consulte a documentação oficial do Next.js em <a href="https://nextjs.org/docs">https://nextjs.org/docs<a>.</p>
